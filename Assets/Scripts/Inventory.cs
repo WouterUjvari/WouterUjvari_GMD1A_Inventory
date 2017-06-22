@@ -25,7 +25,7 @@ public class Inventory : MonoBehaviour, IPointerExitHandler
     
     void Update()
     {
-        //EZ inv toggle.
+        //Easy inventory toggle.
         DisplayStats();
 
         if (Input.GetButtonDown("Inv"))
