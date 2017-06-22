@@ -38,7 +38,7 @@ public class ItemFace : MonoBehaviour, IBeginDragHandler, IDragHandler, IEndDrag
   
     public void OnBeginDrag(PointerEventData eventData)
     {
-        //Moves the card up the parent tree once when being dragged.
+        //Moves the card up the parent-tree once when being dragged.
         //Also disables raycast target on this card so the mouse can look underneath it.
         //Puts this card in a public Gameobject in Inventory.cs so everyone can look at it.
         parentToReturnTo = this.transform.parent;
